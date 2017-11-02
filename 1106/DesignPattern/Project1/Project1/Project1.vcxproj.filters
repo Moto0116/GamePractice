@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{723083d4-717d-49a8-ad96-b56123515cdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Enemy">
+      <UniqueIdentifier>{e48f9e69-bc8a-4676-b8c5-aeda332ecacb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Enemy\EnemyStateBase">
+      <UniqueIdentifier>{d2327f0c-e748-4e5a-873d-3f45dd5b32e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Enemy\EnemyStateBase\EnemyBattleState">
+      <UniqueIdentifier>{2ff67200-25d0-4f5b-976a-61e0e3fd3fc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Enemy\EnemyStateBase\EnemySearchState">
+      <UniqueIdentifier>{2b61ceb3-a859-47f5-8eac-3e17546933de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main\Enemy\EnemyStateBase\EnemySleepState">
+      <UniqueIdentifier>{bf8a8512-6c46-4758-a171-930164243f0e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Main\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBattleState.cpp">
+      <Filter>Main\Enemy\EnemyStateBase\EnemyBattleState</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemySearchState.cpp">
+      <Filter>Main\Enemy\EnemyStateBase\EnemySearchState</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemySleepState.cpp">
+      <Filter>Main\Enemy\EnemyStateBase\EnemySleepState</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyStateBase.cpp">
+      <Filter>Main\Enemy\EnemyStateBase</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Enemy.h">
+      <Filter>Main\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBattleState.h">
+      <Filter>Main\Enemy\EnemyStateBase\EnemyBattleState</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySearchState.h">
+      <Filter>Main\Enemy\EnemyStateBase\EnemySearchState</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySleepState.h">
+      <Filter>Main\Enemy\EnemyStateBase\EnemySleepState</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyStateBase.h">
+      <Filter>Main\Enemy\EnemyStateBase</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
