@@ -33,7 +33,7 @@ class Type1Macine
 {
 private:
 	Weapon *m_Weapon;   // ウェポンオブジェクトへのポインタ
-	Bomb *m_Bomb;      // ボムオブジェクトへのポインタ
+	Bomb   *m_Bomb;      // ボムオブジェクトへのポインタ
 
 public:
 	void Create(AbstractWeapons *AbsWep)

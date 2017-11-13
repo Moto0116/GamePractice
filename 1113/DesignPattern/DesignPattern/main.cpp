@@ -3,22 +3,23 @@
 
 void func1()
 {
-	printf("Address : %p\n", Singleton<NEW_CREATE>::Instance());
+	printf("Address : %p\n", Singleton1::Instance());
 }
 
 void func2()
 {
-	printf("Address : %p\n", Singleton<LOCAL_STATIC_VALUE>::Instance());
+	printf("Address : %p\n", Singleton2::Instance());
 }
 
 void main()
 {
-	Singleton<NEW_CREATE>::Create();
-	printf("Address : %p\n", Singleton<NEW_CREATE>::Instance());
+	Singleton1::Create();
+	printf("Address : %p\n", Singleton1::Instance());
 	func1();
-	Singleton<NEW_CREATE>::Delete();
+	Singleton1::Delete();
 
-	Singleton<LOCAL_STATIC_VALUE>::Instance();
+	Singleton2::Instance();
+	printf("Address : %p\n", Singleton2::Instance());
 	func2();
 
 
